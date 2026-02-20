@@ -1,7 +1,16 @@
 @import "tailwindcss";
-@import "flowbite-react/plugin/tailwindcss";
-@source "../.flowbite-react/class-list.json";
+@plugin "daisyui";
+
 
 body {
-  background-color: aquamarine;
+  background-color: cornflowerblue;
+}
+
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  color: white;
+  margin-left: 5rem;
 }
