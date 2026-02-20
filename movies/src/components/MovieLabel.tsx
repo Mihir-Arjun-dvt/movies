@@ -1,8 +1,10 @@
-const enum Showtime {
-  Morning = 'Morning',
-  Afternoon = 'Afternoon',
-  Evening = 'Evening',
-}
+const Showtime = {
+  Morning: 'Morning',
+  Afternoon: 'Afternoon',
+  Evening: 'Evening',
+} as const;
+
+type Showtime = typeof Showtime[keyof typeof Showtime];
 
 const showtimeBadgeMap: Record<Showtime, string> = {
   [Showtime.Morning]: 'badge bg-blue-300',
