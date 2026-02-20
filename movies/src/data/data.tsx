@@ -9,7 +9,7 @@ export const movies = [
   {
     id: 2,
     title: "Goodfellas",
-    genre: "Crime / Drama",
+    genre: "Crime",
     showtime: "20",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
   },
@@ -23,14 +23,14 @@ export const movies = [
   {
     id: 4,
     title: "Pulp Fiction",
-    genre: "Crime / Thriller",
+    genre: "Thriller",
     showtime: "14",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
   },
   {
     id: 5,
     title: "The Godfather",
-    genre: "Crime / Drama",
+    genre: "Drama",
     showtime: "9",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
   },
@@ -44,14 +44,14 @@ export const movies = [
   {
     id: 7,
     title: "Forrest Gump",
-    genre: "Drama / Comedy",
+    genre: "Comedy",
     showtime: "13",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
   },
   {
     id: 8,
     title: "Jurassic Park",
-    genre: "Adventure / Sci-Fi",
+    genre: "Adventure",
     showtime: "14",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
   },

@@ -1,3 +1,5 @@
+import MovieLabel from "./MovieLabel";
+
 interface MovieCardProps {
     title: string;
     genre: string;
@@ -12,17 +14,16 @@ export default function MovieCards({ title, genre, showtime, imageURL }: MovieCa
                 <img
                     src={imageURL}
                     alt={title}
-                    className="mt-4" />
+                    className="mt-4 h-80 w-60" />
             </figure>
             <div className="card-body">
-                <h2 className="card-title">
+                <h2 className="card-title justify-center">
                     {title}
-                    <div className="badge badge-secondary">{genre}</div>
                 </h2>
-                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                <div className="card-actions justify-end">
-                    <div className="badge badge-outline">{showtime}</div>
-                    <div className="badge badge-outline">Products</div>
+                <div className="card-actions justify-center">
+                    <div className="badge badge-secondary">{genre}</div>
+                    <MovieLabel showtime={showtime} />
+                    <div className="badge badge-outline">{showtime}:00</div>
                 </div>
             </div>
         </div>
