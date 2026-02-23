@@ -16,7 +16,7 @@ export default function DropdownFilter({ selected }: FilterDropdownProps) {
     <div className="dropdown dropdown-end">
       <button
         tabIndex={0}
-        className="btn btn-outline btn-sm min-w-[120px]"
+        className="btn btn-outline btn-sm min-w-30"
         aria-label="Filter movies by showtime"
       >
         {selected}

@@ -14,14 +14,17 @@ function App() {
 
   return (
     <div className="min-h-screen bg-base-200 p-6">
-      <header className="flex items-center justify-between mb-8">
-        <h1 className="text-3xl font-bold cookie-regular">
+      <header className="mb-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
+        <h1 className="text-2xl sm:text-2xl font-bold cookie-regular">
           Mihir's Movies
         </h1>
-        <DropdownFilter selected={filter} />
+
+        <div className="w-auto">
+          <DropdownFilter selected={filter} />
+        </div>
       </header>
 
-      <main className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
+      <main className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
         {filteredMovies.map((movie) => (
           <MovieCards key={movie.id} title={movie.title} genre={movie.genre} showtime={movie.showtime} imageURL={movie.imageUrl} />
         ))}
