@@ -9,7 +9,7 @@ interface MovieCardProps {
 
 export default function MovieCards({ title, genre, showtime, imageURL }: MovieCardProps) {
     return (
-        <article className="card w-80 bg-base-100 shadow-md hover:shadow-lg transition-shadow">
+        <article className="card w-80 bg-base-100 rounded-md shadow-md hover:shadow-lg transition-shadow">
             <figure className="pt-4">
                 <img
                     src={imageURL}
@@ -18,7 +18,7 @@ export default function MovieCards({ title, genre, showtime, imageURL }: MovieCa
                 />
             </figure>
 
-            <div className="card-body items-center text-center">
+            <div className="card-body bg-base-100 items-center text-center">
                 <h2 className="card-title text-lg">{title}</h2>
 
                 <div className="flex flex-wrap justify-center gap-2">

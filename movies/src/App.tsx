@@ -4,6 +4,7 @@ import { movies } from './data/data.tsx'
 import { Showtime, type ShowtimeType } from './types/showtime.tsx'
 import { getShowtimePeriod, getFilterFromURL } from './utils/showtime.ts'
 import './index.css'
+import ThemeToggle from './components/ThemeToggle.tsx'
 
 function App() {
   const filter: ShowtimeType = getFilterFromURL();
@@ -19,7 +20,8 @@ function App() {
           Mihir's Movies
         </h1>
 
-        <div className="w-auto">
+        <div className="flex gap-3">
+          <ThemeToggle />
           <DropdownFilter selected={filter} />
         </div>
       </header>

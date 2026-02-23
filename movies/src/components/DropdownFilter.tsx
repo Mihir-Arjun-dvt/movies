@@ -13,10 +13,10 @@ interface FilterDropdownProps {
 
 export default function DropdownFilter({ selected }: FilterDropdownProps) {
   return (
-    <div className="dropdown dropdown-end">
+    <div className="dropdown dropdown-end text-3xl">
       <button
         tabIndex={0}
-        className="btn btn-outline btn-sm min-w-30"
+        className="btn btn-outline btn-sm min-w-30 h-12"
         aria-label="Filter movies by showtime"
       >
         {selected}
