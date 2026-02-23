@@ -37,7 +37,7 @@ export const movies = [
   {
     id: 6,
     title: "Schindler's List",
-    genre: "Historical Drama",
+    genre: "Drama",
     showtime: "11",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
   },

@@ -20,5 +20,10 @@ function getShowtime(hour: number): Showtime {
 
 export default function MovieLabel({ showtime }: { showtime: string }) {
   const period = getShowtime(Number(showtime));
-  return <div className={showtimeBadgeMap[period]}>{period}</div>;
+
+  return (
+    <span className={`${showtimeBadgeMap[period]} text-sm font-medium`}>
+      {period}
+    </span>
+  );
 }
