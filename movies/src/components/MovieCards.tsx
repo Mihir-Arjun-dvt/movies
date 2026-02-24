@@ -20,7 +20,7 @@ export default function MovieCards({ title, genre, showtime, imageURL }: MovieCa
             
             <div className="card-body bg-base-100 items-center text-center">
                 <div className="flex flex-wrap justify-center gap-2 mb-2">
-                    <span className="badge badge-secondary">{genre}</span>
+                    <span className="badge rounded-full px-3 py-2 bg-pink-100 text-pink-700 shadow-sm">{genre}</span>
                     <MovieLabel showtime={showtime} />
                     <span className="badge badge-outline">{showtime}:00</span>
                 </div>
