@@ -37,8 +37,8 @@ export const movies = [
   {
     id: 6,
     title: "Schindler's List",
-    genre: "Historical Drama",
-    showtime: "11",
+    genre: "Drama",
+    showtime: "14",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
   },
   {
@@ -52,7 +52,7 @@ export const movies = [
     id: 8,
     title: "Jurassic Park",
     genre: "Adventure",
-    showtime: "14",
+    showtime: "10",
     imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
   },
 ];
