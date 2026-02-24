@@ -1,0 +1,58 @@
+export const movies = [
+  {
+    id: 1,
+    title: "Gladiator",
+    genre: "Action",
+    showtime: "19",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+  },
+  {
+    id: 2,
+    title: "Goodfellas",
+    genre: "Crime",
+    showtime: "20",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+  },
+  {
+    id: 3,
+    title: "The Shawshank Redemption",
+    genre: "Drama",
+    showtime: "18",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+  },
+  {
+    id: 4,
+    title: "Pulp Fiction",
+    genre: "Thriller",
+    showtime: "14",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+  },
+  {
+    id: 5,
+    title: "The Godfather",
+    genre: "Drama",
+    showtime: "9",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+  },
+  {
+    id: 6,
+    title: "Schindler's List",
+    genre: "Drama",
+    showtime: "14",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+  },
+  {
+    id: 7,
+    title: "Forrest Gump",
+    genre: "Comedy",
+    showtime: "13",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+  },
+  {
+    id: 8,
+    title: "Jurassic Park",
+    genre: "Adventure",
+    showtime: "10",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+  },
+];
